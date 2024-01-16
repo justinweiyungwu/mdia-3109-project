@@ -5,7 +5,7 @@
 
 
 ## Description 
-
+Purpose of application: a music web application for music enthusiasts  that focuses on creating immersive visualizers of top genres, artists, and trends, artist profiles, and access to upcoming music events all in one website.
 
 ## Team Members 
 - Justin Wu
