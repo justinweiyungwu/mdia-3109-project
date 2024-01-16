@@ -8,6 +8,7 @@
 - Justin Wu
 - Jacob Skilling
 - Takami Inagaki
+- Ivona Ivkovic
 
 
 ## APIs
