@@ -1,8 +1,11 @@
 # mdia-3109-project
 
 ## Topic
+ music website that displays ratings based off of critic and user scores
+
 
 ## Description 
+
 
 ## Team Members 
 - Justin Wu
