@@ -6,6 +6,7 @@
 
 ## Team Members 
 Justin Wu
+Jacob Skilling
 
 
 
