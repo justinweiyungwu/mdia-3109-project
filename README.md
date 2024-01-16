@@ -5,9 +5,9 @@
 ## Description 
 
 ## Team Members 
-Justin Wu
-Jacob Skilling
-Takami Inagaki
+- Justin Wu
+- Jacob Skilling
+- Takami Inagaki
 
 
 ## APIs
