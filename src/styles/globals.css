@@ -10,6 +10,8 @@
 
   --font-family: 'Poppins', sans-serif;
   --font-headline-5-reg-size: 20px; 
+  --font-body-text-small: 16px; 
+  --font-body-text-small-weight: 400; 
   --font-headline-5-reg-weight: 400; 
 }
 
