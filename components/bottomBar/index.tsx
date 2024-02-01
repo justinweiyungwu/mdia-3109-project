@@ -5,12 +5,8 @@ import styles from "../../components/bottomBar/BottomBar.module.css"
 import home from "../../public/images/Home.svg"
 import genres from "../../public/images/Folder.svg"
 import music from "../../public/images/music.svg"
-import map from "../../public/images/World.svg"
-import calender from "../../public/images/Flame.svg"
 
 
-
-import genresIcon from "../../public/images/genresIcon.svg"
 export default function BottomBar(){
     return(
         <>
