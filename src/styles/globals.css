@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --topBar-body-colour: #897D8C;
+  --white-colour: #ffffff;
+
+
+
+  --font-family: 'Poppins', sans-serif;
+  --font-headline-5-reg-size: 20px; 
+  --font-headline-5-reg-weight: 400; 
 }
+
+
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {

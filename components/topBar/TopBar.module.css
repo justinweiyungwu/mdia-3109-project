@@ -1,0 +1,41 @@
+
+.topBarBody{
+ background-color: var(--topBar-body-colour);
+ width: 375px;
+ height: 100px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 25px;
+}
+
+.topBarBody > h1 {
+    color: var(--white-colour);
+    font-size: var(--font-headline-5-reg-size);
+    font-weight: var(--font-headline-5-reg-weight);
+    font-family: var(-font-family);
+}
+
+
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 32px;
+    gap: 15px;
+    font-size: var(--font-headline-5-reg-size);
+    font-weight: var(--font-headline-5-reg-weight);
+    font-family: var(-font-family);
+}
+
+
+.slides{
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    right: 535px;
+    top: 180px; 
+}

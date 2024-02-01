@@ -1,3 +1,4 @@
+import TopBar from "../../components/topBar";
 
 
 export default function Artists(){
