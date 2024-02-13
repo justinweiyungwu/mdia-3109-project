@@ -10,13 +10,15 @@ import music from "../../public/images/music.svg"
 export default function BottomBar(){
     return(
         <>
-            <main className={styles.bottomBarBody}>
+        <div className={styles.mainnav}>
+            <div className={styles.bottomBarBody}>
 
                 <a className={styles.bottomBarItem} href="/genes"><Image src={genres} alt="" height={40} width={40}/>Genres</a>
                 <a className={styles.bottomBarItem} href="/"><Image src={home} alt="" height={40} width={40}/>Home</a>
                 <a className={styles.bottomBarItem} href="/artists"><Image src={music} alt="" height={40} width={40}/>Artists</a>
                 
-            </main>  
+            </div> 
+            </div> 
         </>
     )
 }
