@@ -17,18 +17,14 @@ import saved from "../../public/images/Heart.svg"
 
 export default function TopBar(){
 
-    const [sideMenuShow,  setSideMenuShow] = useState(false);
-    const sideBar = () => {
-        setSideMenuShow(!sideMenuShow)
-    }
-
+  const [menuOpen, setMenuOpen] = useState(false);
 
     const pageTitle = () => {
         switch (useRouter().pathname) {
             case "/":
               return "Home"
 
-                case "/genes":
+                case "/genres":
                     return "Genres"
                       break;
 
@@ -44,14 +40,6 @@ export default function TopBar(){
                                 return "Events"
                                   break;
 
-                                  case "/articles":
-                                    return "Articles"
-                                      break;
-
-                                      case "/saved":
-                                        return "Saved"
-                                          break;
-        
                                             default: ""
                                                 break;
         }
@@ -74,25 +62,32 @@ export default function TopBar(){
                     alt = ""
                     height={30}
                     width={40}
-                    onClick={sideBar}
+                    onClick={() => {
+                      setMenuOpen(!menuOpen);
+                    }}
                 />
 
 
 
-            {sideMenuShow && (
-                
+            {
+            menuOpen && (
+              
                 <div className={styles.slides}>
-                    <ul className={styles.itemsSection}>
-                            <li className={styles.items}><Image src={home} alt="" height={30} width={30}/><a href="/">Home</a></li>
-                            <li className={styles.items}><Image src={genres} alt="" height={30} width={30}/><a href="/genes">Genres</a></li>
-                            <li className={styles.items}><Image src={music} alt="" height={30} width={30}/><a href="/artists">Artists</a></li>
-                            <li className={styles.items}><Image src={map} alt="" height={30} width={30}/><a href="/map">Map</a></li>
-                            <li className={styles.items}><Image src={calender} alt="" height={30} width={30}/><a href="/events">Events</a></li>
-                            <li className={styles.items}><Image src={articles} alt="" height={30} width={30}/><a href="/artists">Articles</a></li>
-                            <li className={styles.items}><Image src={saved} alt="" height={30} width={30}/><a href="/saved">Saved</a></li>
+
+                    <ul className={styles.open__menu}>
+                    <div onClick={() => {
+              setMenuOpen(!menuOpen);
+            }} className={styles.menu__close}>
+              <i>X</i>
+            </div>
+                            <li><a className={styles.items} href="/"><Image src={home} alt="" height={30} width={30}/>Home</a></li>
+                            <li><a className={styles.items}href="/genres"><Image src={genres} alt="" height={30} width={30}/>Genres</a></li>
+                            <li><a className={styles.items} href="/artists"><Image src={music} alt="" height={30} width={30}/>Artists</a></li>
+                            <li><a className={styles.items} href="/map"><Image src={map} alt="" height={30} width={30}/>Map</a></li>
+                            <li><a  className={styles.items}href="/events"><Image src={calender} alt="" height={30} width={30}/>Events</a></li>
                     </ul>
                 </div>
-
+             
             )}
 
             </main> 

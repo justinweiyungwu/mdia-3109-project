@@ -1,12 +1,16 @@
-
+import TopBar from "../../components/topBar"
+import BottomBar from "../../components/bottomBar"
 
 
 export default function Map(){
     return(
-        <>
-          <div>
-            <h1>Map page</h1>
-          </div>
-        </>
+      <>
+      <TopBar></TopBar>
+      <main>
+    
+  
+      </main>
+      <BottomBar/>
+      </>
     )
 }

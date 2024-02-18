@@ -1,12 +1,15 @@
 import TopBar from "../../components/topBar";
-
+import BottomBar from "../../components/bottomBar";
 
 export default function Artists(){
     return(
         <>
-            <div>
-                <h1>Artist page</h1>
-            </div>
+        <TopBar></TopBar>
+        <main>
+      
+    
+        </main>
+        <BottomBar/>
         </>
     )
 }
