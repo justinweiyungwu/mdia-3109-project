@@ -1,7 +1,7 @@
 
 .topBarBody{
  background-color: var(--topBar-body-colour);
- width: 375px;
+ width: 100%;
  height: 100px;
  display: flex;
  flex-direction: row;
@@ -21,21 +21,43 @@
 
 .items{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     padding-bottom: 32px;
+    padding-right: 1em;
     gap: 15px;
     font-size: var(--font-headline-5-reg-size);
     font-weight: var(--font-headline-5-reg-weight);
     font-family: var(-font-family);
 }
 
-
 .slides{
-    width: 150px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    background-color: white;
-    right: 535px;
-    top: 180px; 
+   
+    background-color: rgba(255, 255, 255, 0.9);
+left: 0;
+    top: 0px; 
 }
+
+
+
+.open__menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 0.5em;
+    animation: slide-in-from-left 0.5s forwards;
+}
+.menu__close {
+   
+    display: flex;
+    flex-direction: row-reverse;
+ font-size: 3em;
+ padding-right: 0.5em;
+}
+
