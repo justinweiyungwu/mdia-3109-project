@@ -5,6 +5,7 @@
 :root {
   --topBar-body-colour: #897D8C;
   --white-colour: #ffffff;
+  --gray-colour: #959494;
 
 
 
@@ -13,6 +14,10 @@
   --font-body-text-small: 16px; 
   --font-body-text-small-weight: 400; 
   --font-headline-5-reg-weight: 400; 
+
+  --font-semibold-weight: 500;
+  --font-medium-weight: 400;
+  --font-light-weight: 300; 
 }
 
 

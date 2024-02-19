@@ -1,0 +1,74 @@
+
+.body{
+    width: 863px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.eventImage{
+    border-radius: 10px;
+}
+
+.dates{
+    display: flex;
+    flex-direction: column;
+    gap: 0
+}
+
+.day{
+    font-family: var(--font-family);
+    font-weight: var( --font-medium-weight);
+    font-size: 35px;
+}
+
+.month{
+    font-family: var(--font-family);
+    font-weight: var( --font-headline-5-reg-weight);
+    font-size: 20px;
+}
+
+.eventImage{
+    border-radius: 10px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.singer{
+    font-family: var(--font-family);
+    font-weight: var(--font-semibold-weight);
+    font-size: 32px;
+}
+
+.placeAddress{
+    font-family: var(--font-family);
+    font-weight: var( --font-headline-5-reg-weight);
+    color: var( --gray-colour);
+    font-size: 18px;
+}
+
+
+.description{
+    font-family: var(--font-family);
+    font-weight: var( --font-headline-5-reg-weight);
+    font-size: 14px;
+}
+
+.eventDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.viewButton{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 18px;
+    font-weight: var(--font-semibold-weight);
+}

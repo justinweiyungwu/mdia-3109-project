@@ -1,0 +1,52 @@
+.body{
+    width: 280px;
+}
+
+.articleDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.articleTopSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.articleImage{
+    border-radius: 15px;
+    border-top: 1px;
+}
+
+.article{
+    font-family: var(--font-family);
+    font-weight: var(--font-headline-light-weight);
+    color: var( --gray-colour);
+    font-size: 16px;
+}
+
+.articleDate{
+    font-family: var(--font-family);
+    font-weight: var(--font-light-weight);
+    color: black;
+    font-size: 14px;
+}
+
+.articleTitle{
+    font-family: var(--font-family);
+    font-weight: var(--font-headline-5-reg-weight);
+    color: black;
+    font-size: 16px;
+}
+
+.viewButton{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 18px;
+    font-weight: var(--font-semibold-weight);
+}

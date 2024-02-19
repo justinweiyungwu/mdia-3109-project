@@ -1,0 +1,52 @@
+
+.artistsSection{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: var(--font-family);
+    font-weight: var(--font-headline-5-reg-size);
+    color: black;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.texts{
+    position: absolute;
+    bottom: 20px;
+    text-align: left;
+    background-color: (0,0,0,0.7);
+    color: white;
+    font-family: var(--font-family);
+    font-weight: var( --font-medium-weight);
+    font-size: 15px;
+}
+
+.artistImage{
+    border-radius: 50%;
+}
+
+.artistName{
+    font-family: var(--font-family);
+    font-weight: var(--font-semibold-weight);
+    color: black;
+    font-size: 40px;
+}
+
+.artistDetails{
+    font-family: var(--font-family);
+    font-weight: var(--font-headline-5-reg-size);
+    color: black;
+    font-size: 16px;
+}
+
+.topSongsSection{
+    padding-top: 50px;
+}
+
+.musicVideoSection{
+    padding-top: 100px;
+}
