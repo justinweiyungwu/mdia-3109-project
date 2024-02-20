@@ -1,8 +1,7 @@
 
-
 interface BillboardData{
-    rank: number;
-    cover: string;
-    title: string;
-    artist: string;
+    entries: any[]; 
+  nextWeek: { date: string; url: string };
+  previousWeek: { date: string; url: string }; 
+  week: string;
 }
