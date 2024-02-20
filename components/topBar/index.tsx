@@ -49,7 +49,7 @@ export default function TopBar(){
             <main className={styles.topBarBody}>
                 <Image 
                     src={searchIcon}
-                    alt=""
+                    alt="SearchIcon"
                     width={30}
                     height={30}
                 />
@@ -58,7 +58,7 @@ export default function TopBar(){
                     
                 <Image 
                     src={dropDownMenuIcon}
-                    alt = ""
+                    alt = "MenuIcon"
                     height={30}
                     width={40}
                     onClick={() => {
@@ -79,9 +79,9 @@ export default function TopBar(){
             }} className={styles.menu__close}>
               <i>X</i>
             </div>
-                            <li><a className={styles.items} href="/"><Image src={home} alt="" height={30} width={30}/>Home</a></li>
+                            <li><a className={styles.items} href="/"><Image src={home} alt="homeIcon" height={30} width={30}/>Home</a></li>
                             <li><a className={styles.items}href="/genres"><Image src={genres} alt="" height={30} width={30}/>Genres</a></li>
-                            <li><a className={styles.items} href="/artists"><Image src={music} alt="" height={30} width={30}/>Artists</a></li>
+                            <li><a className={styles.items} href="/artists"><Image src={music} alt="ArtistIcon" height={30} width={30}/>Artists</a></li>
                             <li><a className={styles.items} href="/map"><Image src={map} alt="" height={30} width={30}/>Map</a></li>
                             <li><a  className={styles.items}href="/events"><Image src={calender} alt="" height={30} width={30}/>Events</a></li>
                     </ul>

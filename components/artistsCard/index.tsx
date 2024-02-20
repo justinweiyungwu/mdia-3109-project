@@ -33,7 +33,7 @@ export default function ArtistsCard(){
                     <Image 
                      className={styles.top_song_container_img}   
                         src={songs.songsImage}
-                        alt=""
+                        alt="songsImage"
                         width={150}
                         height={150}/>
                     <h5 className={styles.subtitle}>{songs.songsTitle}</h5>

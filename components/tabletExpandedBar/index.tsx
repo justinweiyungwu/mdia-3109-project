@@ -39,7 +39,7 @@ export default function TabletExpandedBar() {
         <a className={styles.items} href="/"><Image src={home} alt="" height={30} width={30}/>Home</a>
         <a className={styles.items}href="/genres"><Image src={genres} alt="" height={30} width={30}/>Genres</a>
         <a className={styles.items} href="/artists"><Image src={music} alt="" height={30} width={30}/>Artists</a>
-        <a className={styles.items} href="/map"><Image src={map} alt="" height={30} width={30}/>Map</a>
+        <a className={styles.items} href="/map"><Image src={map} alt="Map" height={30} width={30}/>Map</a>
        <a  className={styles.items}href="/events"><Image src={calender} alt="" height={30} width={30}/>Events</a>
 
        </div>

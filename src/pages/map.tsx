@@ -7,7 +7,7 @@ const DynamicMap = dynamic(() => import('../../components/Map/'), {ssr: false});
 export default function Map(){
     return(
       <>
-      <TopBar></TopBar>
+      <TopBar ></TopBar>
       <main>
         <h2>Top Artists and Genres around the World</h2>
       <DynamicMap/>

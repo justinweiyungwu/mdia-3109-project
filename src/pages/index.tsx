@@ -7,7 +7,7 @@ import ArtistsCard from "../../components/artistsCard"
 export default function Home() {
   return (
     <>
-    <TopBar/>
+    <TopBar />
     <main>
   
 

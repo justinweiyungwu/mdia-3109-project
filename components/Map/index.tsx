@@ -1,5 +1,6 @@
 import {MapContainer, TileLayer, Popup, CircleMarker} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import React from 'react'
 
 const redOptions = { color: "red"}
 const orangeOptions = { color: "orange"
@@ -17,6 +18,7 @@ export default function Map () {
 
         
         <MapContainer
+        data-testid="map-container"
         style={{height: "50vh", zIndex: 1}}
         center={[43.285790, -103.111954]} zoom={3} scrollWheelZoom={true}
         >

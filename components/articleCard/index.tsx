@@ -13,7 +13,7 @@ export default function ArticleCard({
                 <Image 
                     className={styles.articleImage}
                     src={image}
-                    alt=""
+                    alt="articleImage"
                     width={280}
                     height={170}/>
 
