@@ -47,16 +47,8 @@ export default function TopBar(){
     return(
         <>
             <main className={styles.topBarBody}>
-                <Image 
-                    src={searchIcon}
-                    alt=""
-                    width={30}
-                    height={30}
-                />
-                
-                <h1>{pageTitle()}</h1>
-                    
-                <Image 
+            <Image 
+            className={styles.burger}
                     src={dropDownMenuIcon}
                     alt = ""
                     height={30}
@@ -64,6 +56,16 @@ export default function TopBar(){
                     onClick={() => {
                       setMenuOpen(!menuOpen);
                     }}
+                    />
+                <h1>{pageTitle()}</h1>
+                    
+              
+                    <Image 
+                    src={searchIcon}
+                    alt=""
+                    width={30}
+                    height={30}
+                
                 />
 
 
@@ -77,7 +79,7 @@ export default function TopBar(){
                     <div onClick={() => {
               setMenuOpen(!menuOpen);
             }} className={styles.menu__close}>
-              <i>X</i>
+              <h4 className={styles.exit}>X</h4>
             </div>
                             <li><a className={styles.items} href="/"><Image src={home} alt="" height={30} width={30}/>Home</a></li>
                             <li><a className={styles.items}href="/genres"><Image src={genres} alt="" height={30} width={30}/>Genres</a></li>
