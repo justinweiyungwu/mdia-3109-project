@@ -5,12 +5,13 @@
     "artistName": "Taylor Swift",
     "genre": "Pop & Country",
     "artistDetails": "Taylor Swift is a Grammy-winning singer-songwriter renowned for her heartfelt lyrics and captivating melodies. With a diverse discography spanning from country to pop, she has solidified her status as one of the most influential figures in contemporary music."
-},
+  },
   {
     "id": 2,
     "artistImage": "/images/pictures/drake.jpeg",
     "artistName": "Drake",
     "artistDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     "genre": "Hip-hop & Rap"
-  }
+  },
+  {}
 ]

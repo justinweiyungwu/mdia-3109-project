@@ -1,11 +1,9 @@
-import TopBar from "../topBar";
-import BottomBar from "../bottomBar";
 import Image from "next/image";
 import styles from "../genres/GenresCard.module.css";
 
 export default function GenresCard({
-  songName = "I KNOW ?",
-  singer = "Travis Scott",
+  songName = "",
+  singer = "",
   link = "",
   image = "",
 }) {
