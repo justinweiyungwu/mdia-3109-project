@@ -1,40 +1,53 @@
 import Image from "next/image"
 import styles from "../eventsCard/EventCard.module.css"
+import { useState, useEffect } from "react";
+export default function EventCard(){
+    const [data, setData] = useState<BillboardData[]>([]);
 
-export default function EventCard({
-    dateMonth="",
-    dateDay="",
-    singer = "",
-    link = "",
-    place="",
-    address="",
-    description="",
-    image = "",
-}){
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+  const url = 'https://billboard-api5.p.rapidapi.com/api/charts/hot-100?week=2022-10-08';
+
+
+  useEffect(() => {
+
+    const fetchData = async () => {
+      try {
+        const options = {
+          method: 'GET',
+          headers: {
+            'X-RapidAPI-Key': apiKey ?? ``,
+            'X-RapidAPI-Host': 'billboard-api5.p.rapidapi.com'
+          }
+        };
+
+        const response = await fetch(url, options);
+        if (!response.ok) {
+          throw new Error('Failed to fetch data');
+        }
+        const responseData = await response.json();
+        setData(responseData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
     return(
         <>
             <main className={styles.body}>
-              <div className={styles.dates}>
-                <p className={styles.month}>{dateMonth}</p>
-                <p className={styles.day}>{dateDay}</p>
-              </div>
-               <div className={styles.contents}>
-                    <Image 
-                        className={styles.eventImage}
-                        src={image}
-                        alt=""
-                        width={360}
-                        height={265}/>
-
-                    <div className={styles.eventDetails}>
-                        <h1 className={styles.singer}>{singer}</h1>
-                        <h2 className={styles.placeAddress}>{place} <br />{address}</h2>
-                        <p className={styles.description}>{description}</p>
-                        <a href={link} target="_blank">
-                            <button  className={styles.viewButton}>View More</button>
-                        </a>
-                    </div>
-                </div>
+            
+            {
+        data.map((entry, index) => {
+          return(
+            <div key={index}>
+           
+            </div>
+          )
+        })
+      }
+    
 
             </main>
         </>
