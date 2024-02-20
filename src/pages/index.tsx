@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
 
-  const [data, setData] = useState<BillboardData[]>([]);
+  const [data, setData] = useState<BillboardData | null>(null)
 
   const apiKey = process.env.NEXT_PUBLIC_API_KEY;
   const url = 'https://billboard-api5.p.rapidapi.com/api/charts/hot-100?week=2022-10-08';
@@ -40,17 +40,14 @@ export default function Home() {
     <>
     <TopBar/>
     <main>
-      {
-        data.map((d, index) => {
-          return(
-            <div key={index}>
-              <h1>{d.rank}</h1>
-              <h2>{d.title}</h2>
-              <h3>{d.artist}</h3>
-            </div>
-          )
-        })
-      }
+    {data && (
+          <div>
+            <h1>Chart for Week: {data.week}</h1>
+
+            <h2>Chart Entries</h2>
+        
+          </div>
+        )}
     
 
     </main>
