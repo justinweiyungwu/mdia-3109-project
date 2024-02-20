@@ -21,7 +21,7 @@
 
 .items{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     padding-bottom: 32px;
     padding-right: 1em;
@@ -61,3 +61,25 @@ left: 0;
  padding-right: 0.5em;
 }
 
+@media only screen and (min-width: 1200px) {
+    .topBarBody {
+        display: none;
+    }
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 32px;
+        padding-right: 1em;
+        gap: 15px;
+        font-size: 26px;
+        font-weight: var(--font-headline-5-reg-weight);
+        font-family: var(-font-family);
+    }
+    
+  } 

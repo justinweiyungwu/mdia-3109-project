@@ -10,9 +10,10 @@ export default function Home() {
     <TopBar/>
     <main>
   
-    <ArtistsCard />
+
     </main>
     <BottomBar/>
+    
     </>
   )
 }
