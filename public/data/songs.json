@@ -1,31 +1,83 @@
 [
-    {
-        "id": 1,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Cruel Summer"
-        
-    },
+  {
+    "id": 1,
+    "genre": "Pop",
+    "musicTitle": "Blank Space",
+    "songsImage": "/images/albums/cruelsummer.png",
+    "songsTitle": "Cruel Summer",
+    "artistName": "Taylor Swift"
+  },
+  {
+    "id": 2,
+    "genre": "Pop",
+    "musicTitle": "Blank Space",
+    "songsImage": "/images/albums/cruelsummer.png",
+    "songsTitle": "Anti-Hero",
+    "artistName": "Taylor Swift"
+  },
+  {
+    "id": 3,
+    "genre": "Pop",
+    "musicTitle": "Blank Space",
+    "songsImage": "/images/albums/cruelsummer.png",
+    "songsTitle": "Blank Space",
+    "artistName": "Taylor Swift"
+  },
+  {
+    "id": 4,
+    "genre": "Pop",
+    "musicTitle": "Blank Space",
+    "songsImage": "/images/albums/cruelsummer.png",
+    "songsTitle": "cardigan",
+    "artistName": "Taylor Swift"
+  },
 
-    {
-
-        "id": 2,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Anti-Hero"
-    },
-    {
-        "id": 3,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Blank Space"
-        
-    },
-    {
-        "id": 4,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"cardigan"
-        
-    }
+  {
+    "id": 5,
+    "genre": "Hip-hop",
+    "musicTitle": "",
+    "songsImage": "/images/genres/IKNOW.png",
+    "songsTitle": "I KNOW ?",
+    "artistName": "Travis Scott"
+  },
+  {
+    "id": 6,
+    "genre": "Rock",
+    "musicTitle": "",
+    "songsImage": "/images/genres/Believer.jpg",
+    "songsTitle": "Believer",
+    "artistName": "Travis Scott"
+  },
+  {
+    "id": 7,
+    "genre": "Pop",
+    "musicTitle": "",
+    "songsImage": "/images/genres/LALALALA.jpg",
+    "songsTitle": "LALALALA",
+    "artistName": "Stray Kids"
+  },
+  {
+    "id": 8,
+    "genre": "Pop",
+    "musicTitle": "",
+    "songsImage": "/images/genres/Sugar.png",
+    "songsTitle": "Sugar",
+    "artistName": "Maroon 5"
+  },
+  {
+    "id": 9,
+    "genre": "Pop",
+    "musicTitle": "",
+    "songsImage": "/images/genres/GetLucky.jpg",
+    "songsTitle": "Get Lucky",
+    "artistName": "Daft Punk"
+  },
+  {
+    "id": 10,
+    "genre": "Hip-hop",
+    "musicTitle": "",
+    "songsImage": "/images/genres/BadGuy.jpeg",
+    "songsTitle": "Bad Guy",
+    "artistName": "Billie Eilish"
+  }
 ]
