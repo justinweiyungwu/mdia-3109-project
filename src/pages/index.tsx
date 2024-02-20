@@ -40,10 +40,6 @@ export default function Home() {
     <>
     <TopBar/>
     <main>
-<<<<<<< HEAD
-  
-
-=======
       {
         data.map((d, index) => {
           return(
@@ -56,7 +52,7 @@ export default function Home() {
         })
       }
     
->>>>>>> Takamii
+
     </main>
     <BottomBar/>
     
