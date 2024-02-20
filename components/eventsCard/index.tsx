@@ -1,6 +1,8 @@
 import Image from "next/image"
 import styles from "../eventsCard/EventCard.module.css"
 import { useState, useEffect } from "react";
+
+
 export default function EventCard(){
     const [data, setData] = useState<BillboardData[]>([]);
 
