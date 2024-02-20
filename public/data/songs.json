@@ -12,6 +12,20 @@
         "id": 2,
         "musicTitle": "Blank Space",
         "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Cruel Summer"
+        "songsTitle":"Anti-Hero"
+    },
+    {
+        "id": 3,
+        "musicTitle": "Blank Space",
+        "songsImage": "/images/albums/cruelsummer.png",
+        "songsTitle":"Blank Space"
+        
+    },
+    {
+        "id": 4,
+        "musicTitle": "Blank Space",
+        "songsImage": "/images/albums/cruelsummer.png",
+        "songsTitle":"cardigan"
+        
     }
 ]
