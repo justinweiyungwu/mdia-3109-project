@@ -67,17 +67,24 @@ button {
 }
 
 /****end of text*****/
+/*desktop*/
 @media only screen and (min-width: 1200px) {
   * {
     margin: auto;
     padding: 1em;
+padding-left: 2em;
   }
+
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 350px) {
   * {
     margin: auto;
     
+  }
+  main {
+    padding-bottom: 6em;
   }
 }
 

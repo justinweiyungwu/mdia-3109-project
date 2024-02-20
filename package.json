@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "use-router": "^0.4.2"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.8",
     "@types/node": "20.11.17",
     "@types/react": "^18",
     "@types/react-dom": "^18",

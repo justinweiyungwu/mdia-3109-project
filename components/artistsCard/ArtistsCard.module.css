@@ -10,12 +10,15 @@
     justify-content: space-between;
 }
 .grid_container {
-    display: grid;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
    
 }
 
-.top_song_container {
-  
+.topSongs_container {
+  display: flex;
+  flex-direction: row;
 }
 /**end of containers*/
 
@@ -39,13 +42,8 @@ width: 150px;
     padding-top: 2em;
 }
 
-.musicVideo_container{
-    padding-top: 4em;
-}
 
-.top_song_container_img {
-    
-}
+
 
 @media only screen and (min-width: 1200px) {
     .artist_Image{
@@ -53,3 +51,13 @@ width: 150px;
     width: 250px;
     }
   }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    .grid_container {
+       gap: 1em;
+        
+     }
+  } 
+  

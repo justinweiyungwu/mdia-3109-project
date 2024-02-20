@@ -23,10 +23,11 @@ export default function ArtistsCard(){
                     <p>{artist.artistDetails}</p>
                 </div>
                 <h3 className={styles.subtitle}>Top Songs</h3>
+                <div className={styles.grid_container}>
                 {songs.map(songs => (
                 <div className={styles.topSongs_container} key={songs.id}>
 
-                    <div className={styles.grid_container}>
+                   
                     <div className={styles.top_song_container}>
                     <a>
                     <Image 
@@ -39,19 +40,10 @@ export default function ArtistsCard(){
                     </a>
                     </div>
                     </div>
-                    </div>
+                
                 ))}
-                    <div className={styles.musicVideo_container}>
-                    <h3>Music Videos</h3>
-                    <a>
-                    <Image    
-                        src={""}
-                        alt=""
-                        width={150}
-                        height={150}/>
-                    <h5></h5>
-                    </a>
                     </div>
+               
            </div>
           ))}
 
