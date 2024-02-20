@@ -9,6 +9,7 @@ export default function Map(){
       <>
       <TopBar></TopBar>
       <main>
+     <br></br>
         <h2>Top Artists and Genres around the World</h2>
       <DynamicMap/>
       <h5>Q: What's the purpose of this map?</h5>
