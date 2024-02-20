@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "musicTitle": "Blank Space",
+        "songsImage": "/images/albums/cruelsummer.png",
+        "songsTitle":"Cruel Summer"
+        
+    },
+
+    {
+
+        "id": 2,
+        "musicTitle": "Blank Space",
+        "songsImage": "/images/albums/cruelsummer.png",
+        "songsTitle":"Cruel Summer"
+    }
+]

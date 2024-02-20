@@ -1,56 +1,59 @@
 
 import Image from "next/image"
 import styles from "../artistsCard/ArtistsCard.module.css"
+import data from '../../public/data/data.json';
+import songs from  '../../public/data/songs.json';
 
-export default function ArtistsCard({
-    artistImage="",
-    artistName = "Taylor Swift",
-    artistDetails = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    musicVideoLink = "",
-    topSongLink = "",
-    songsImage="",
-    songsTitle="Cruel Summer",
-    musicImage="",
-    musicTitle = "Blank Space",
-}){
+export default function ArtistsCard(){
     return(
         <>
-            <main className={styles.body}>
-              <div className={styles.artistsSection}>
+            <main className={styles.main}>
+            {data.map(artist => (
+            <div className={styles.artists_Section} key={artist.id}>
+        <div className={styles.artistDetail_Section}>
                 <Image 
-                    className={styles.artistImage}
-                    src={artistImage}
-                    alt=""
-                    width={180}
-                    height={180}/>
-                <div className={styles.artistDetailSection}>
-                    <h1 className={styles.artistName}>{artistName}</h1>
-                    <p className={styles.artistDetails}>{artistDetails}</p>
+                    className={styles.artist_Image}
+                    src={artist.artistImage}
+                    alt="taylay"
+                    width={200}
+                    height={200}/>
+   
+                    <h1 className={styles.title}>{artist.artistName}</h1>
+                    <h4 className={styles.subtitle}>{artist.genre}</h4>
+                    <p>{artist.artistDetails}</p>
                 </div>
-              </div>
-                <a href={topSongLink}>
-                    <div className={styles.topSongsSection}>
-                    <h2 className={styles.title}>Top Songs</h2>
-                    <Image    
-                        src={songsImage}
-                        alt=""
-                        width={150}
-                        height={150}/>
-                    <h3 className={styles.texts}>{songsTitle}</h3>
-                    </div>
-                </a>
+                <h3 className={styles.subtitle}>Top Songs</h3>
+                {songs.map(songs => (
+                <div className={styles.topSongs_container} key={songs.id}>
 
-                <a href={musicVideoLink}>
-                    <div className={styles.musicVideoSection}>
-                    <h2 className={styles.title}>Music Videos</h2>
-                    <Image    
-                        src={musicImage}
+                    <div className={styles.grid_container}>
+                    <div className={styles.top_song_container}>
+                    <a>
+                    <Image 
+                     className={styles.top_song_container_img}   
+                        src={songs.songsImage}
                         alt=""
                         width={150}
                         height={150}/>
-                    <h3>{musicTitle}</h3>
+                    <h5 className={styles.subtitle}>{songs.songsTitle}</h5>
+                    </a>
                     </div>
-                </a>
+                    </div>
+                    </div>
+                ))}
+                    <div className={styles.musicVideo_container}>
+                    <h3>Music Videos</h3>
+                    <a>
+                    <Image    
+                        src={""}
+                        alt=""
+                        width={150}
+                        height={150}/>
+                    <h5></h5>
+                    </a>
+                    </div>
+           </div>
+          ))}
 
             </main>
         </>

@@ -1,5 +1,6 @@
 import TopBar from "../../components/topBar";
 import BottomBar from "../../components/bottomBar";
+import ArtistsCard from "../../components/artistsCard";
 
 export default function Artists(){
     return(
@@ -7,7 +8,7 @@ export default function Artists(){
         <TopBar></TopBar>
         <main>
       
-    
+        <ArtistsCard />
         </main>
         <BottomBar/>
         </>

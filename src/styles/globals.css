@@ -20,6 +20,66 @@
   --font-light-weight: 300; 
 }
 
+/**overall layout*/
+
+main {
+padding: 1em;
+}
+/**end of layout*/
+
+/****text*****/
+h1,h2,h3,h4,h5,p {
+  font-family: var(--font-family);
+  
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/****end of text*****/
+@media only screen and (min-width: 1200px) {
+  * {
+    margin: auto;
+    padding: 1em;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 350px) {
+  * {
+    margin: auto;
+    
+  }
+}
 
 
 
