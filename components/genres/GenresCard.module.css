@@ -1,21 +1,26 @@
-
-.body{
-    width: 175px;
-    height: 175px;
-    display: flex;
-    flex-direction: column;
-    gap:15px
+.body {
+  width: 175px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.songName{
-    font-family: var(--font-family);
-    font-weight: var( --font-headline-5-reg-weigh);
-    font-size: 20px;
+.songName {
+  font-family: var(--font-family);
+  font-weight: var(--font-headline-5-reg-weigh);
+  font-size: 20px;
 }
 
-.singer{
-    font-family: var(--font-family);
-    color: var( --gray-colour);
-    font-size: 16px;
-    font-weight: var(--font-light-weight);
+.singer {
+  font-family: var(--font-family);
+  color: var(--gray-colour);
+  font-size: 16px;
+  font-weight: var(--font-light-weight);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

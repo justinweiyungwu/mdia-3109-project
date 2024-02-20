@@ -1,17 +1,16 @@
 [
-{
+  {
     "id": 1,
     "artistImage": "/images/pictures/taylorswift.jpeg",
-    "artistName":"Taylor Swift",
+    "artistName": "Taylor Swift",
     "genre": "Pop & Country",
     "artistDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-},
-{
+  },
+  {
     "id": 2,
-    "artistImage": "",
-    "artistName":" not Taylor Swift",
+    "artistImage": "/images/pictures/drake.jpeg",
+    "artistName": "Drake",
     "artistDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "genre": "Pop & Country"
-}
+    "genre": "Hip-hop & Rap"
+  }
 ]
