@@ -1,14 +1,15 @@
-import TopBar from "../../components/topBar"
-import BottomBar from "../../components/bottomBar"
-export default function Genres(){
-    return(
-        <>
-    <TopBar></TopBar>
-    <main>
-  
+import TopBar from "../../components/topBar";
+import BottomBar from "../../components/bottomBar";
+import ArtistsCard from "../../components/artistsCard";
 
-    </main>
-    <BottomBar/>
+export default function Artists() {
+  return (
+    <>
+      <TopBar></TopBar>
+      <main>
+        <ArtistsCard />
+      </main>
+      <BottomBar />
     </>
-    )
+  );
 }
