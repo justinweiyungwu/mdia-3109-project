@@ -83,6 +83,9 @@ padding-left: 2em;
     margin: auto;
     
   }
+  main {
+    padding-bottom: 6em;
+  }
 }
 
 

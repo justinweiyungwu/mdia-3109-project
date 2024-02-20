@@ -18,3 +18,10 @@ Purpose of application: a music web application for music enthusiasts  that focu
 
 [name](link)
 [name](link)
+
+
+### Installations
+npm install
+npm install react react-dom leaflet
+npm install react-leaflet
+npm install -D @types/leaflet

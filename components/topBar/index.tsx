@@ -11,8 +11,7 @@ import genres from "../../public/images/Folder.svg"
 import music from "../../public/images/music.svg"
 import map from "../../public/images/World.svg"
 import calender from "../../public/images/Flame.svg"
-import articles from "../../public/images/Pen.svg"
-import saved from "../../public/images/Heart.svg"
+
 
 
 export default function TopBar(){
