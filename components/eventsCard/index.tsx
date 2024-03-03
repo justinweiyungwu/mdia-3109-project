@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 
 
 export default function EventCard(){
-    const [data, setData] = useState<BillboardData[]>([]);
+
+  const [data, setData] = useState<BillboardData | null>(null)
 
   const apiKey = process.env.NEXT_PUBLIC_API_KEY;
   const url = 'https://billboard-api5.p.rapidapi.com/api/charts/hot-100?week=2022-10-08';
@@ -12,9 +13,7 @@ export default function EventCard(){
 
   useEffect(() => {
 
-    const fetchData = async () => {
-      try {
-        const options = {
+      const options = {
           method: 'GET',
           headers: {
             'X-RapidAPI-Key': apiKey ?? ``,
@@ -22,33 +21,34 @@ export default function EventCard(){
           }
         };
 
-        const response = await fetch(url, options);
-        if (!response.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        const responseData = await response.json();
-        setData(responseData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
+        fetch(url, options)
+          .then(response => response.json())
+          .then(response => {
+              console.log(response);
+              setData(response);
+          })
+          .catch(error => {
+              console.log(error)
+          })
 
-    fetchData();
-  }, []);
+  },[])
+
 
     return(
         <>
             <main className={styles.body}>
             
             {
-        data.map((entry, index) => {
-          return(
-            <div key={index}>
-           
-            </div>
-          )
-        })
-      }
+                  data && data.chart.entries.map((item, index)=> {
+                    return(
+                      <>
+                        {item.title}
+                        {item.artist}
+                        
+                      </>
+                    )
+                  }
+            )}
     
 
             </main>
