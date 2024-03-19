@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "musicTitle": "Maroon 5",
+        "songsImage": "/images/pictures/Maroon5.png",
+        "songsTitle":"Sugar"
+        
+    },
+
+    {
+
+        "id": 2,
+        "musicTitle": "Snoh Aalegra",
+        "songsImage": "/images/pictures/GetLucky.png",
+        "songsTitle":"Get Lucky"
+    },
+    {
+        "id": 3,
+        "musicTitle": "Billie Eilish",
+        "songsImage": "/images/pictures/BadGuy.png",
+        "songsTitle":"Bad Guy"
+        
+    },
+    {
+        "id": 4,
+        "musicTitle": "Hotter Now",
+        "songsImage": "/images/pictures/Escapism.png",
+        "songsTitle":"Escapism"
+        
+    }
+]

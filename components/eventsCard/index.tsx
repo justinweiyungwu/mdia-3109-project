@@ -7,7 +7,7 @@ export default function EventCard(){
 
   const [data, setData] = useState<BillboardData | null>(null)
 
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+  const apiKey = '';
   const url = 'https://billboard-api5.p.rapidapi.com/api/charts/hot-100?week=2022-10-08';
 
 

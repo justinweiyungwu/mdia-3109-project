@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Cruel Summer"
+        "musicTitle": "Forever",
+        "songsImage": "/images/pictures/Forever.png",
+        "songsTitle":"Forever"
         
     },
 
     {
 
         "id": 2,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Anti-Hero"
+        "musicTitle": "Snoh Aalegra",
+        "songsImage": "/images/pictures/Confetti.png",
+        "songsTitle":"Confetti"
     },
     {
         "id": 3,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"Blank Space"
+        "musicTitle": "Last Night",
+        "songsImage": "/images/pictures/LastNight.png",
+        "songsTitle":"Last Night"
         
     },
     {
         "id": 4,
-        "musicTitle": "Blank Space",
-        "songsImage": "/images/albums/cruelsummer.png",
-        "songsTitle":"cardigan"
+        "musicTitle": "Hotter Now",
+        "songsImage": "/images/pictures/HotterNow.png",
+        "songsTitle":"Hotter Now"
         
     }
 ]

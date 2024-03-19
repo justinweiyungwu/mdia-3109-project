@@ -1,5 +1,6 @@
 import TopBar from "../../components/topBar"
 import BottomBar from "../../components/bottomBar"
+import EventCard from "../../components/eventsCard";
 
 
 export default function Events(){
@@ -11,7 +12,7 @@ export default function Events(){
             
     <TopBar />
     <main>
-  
+  <EventCard/>
 
     </main>
     <BottomBar/>
