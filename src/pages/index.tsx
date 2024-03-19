@@ -3,22 +3,25 @@ import BottomBar from "../../components/bottomBar"
 import TopBar from "../../components/topBar"
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import EventCard from "../../components/eventsCard";
+
+import styles from "..styles/Home.module.css";
 
 
 export default function Home() {
  
 
   return (
-    <>
-    <TopBar/>
-    <main>
     
-    <EventCard />
+    
+    <main className="main_container">
+    <TopBar/>
+    
+
+    <BottomBar/>
 
     </main>
-    <BottomBar/>
+   
     
-    </>
+    
   )
 }
