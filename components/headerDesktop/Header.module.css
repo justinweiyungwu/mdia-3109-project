@@ -1,0 +1,29 @@
+.desktopHeader {
+   background-color: var(--topBar-body-colour);
+   margin: -3em;
+}
+.header {
+   display: flex;
+   flex-direction: row;
+   background-color: var(--topBar-body-colour);
+   padding: 2em;
+   
+}
+
+.items {
+   color: white;
+}
+@media only screen and (min-width: 350px) {
+   .desktopHeader {
+display: none;
+   }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+
+    .desktopHeader {
+        display: block;
+      }
+  } 
+
+  

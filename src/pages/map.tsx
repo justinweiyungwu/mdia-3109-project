@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic"
 import TopBar from "../../components/topBar"
 import BottomBar from "../../components/bottomBar"
+import DesktopHeader from "../../components/headerDesktop";
 const DynamicMap = dynamic(() => import('../../components/Map/'), {ssr: false});
 
 

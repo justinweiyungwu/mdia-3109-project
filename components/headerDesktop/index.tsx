@@ -13,6 +13,19 @@ import calender from "../../public/images/Flame.svg"
 export default function DesktopHeader() {
     return (
         <>
+    <header className={styles.desktopHeader}>
+        <ul className={styles.header}>
+          <li><a className={styles.items} href="/">Home</a></li>
+          <li><a className={styles.items}href="/genres">Genres</a></li>
+          <li><a className={styles.items}href="/artists">Artists</a></li>
+          <li><a className={styles.items}href="/map">Map</a></li>
+          <li><a className={styles.items}href="/events">Events</a></li>
+        </ul>
+    </header>
+
+
+
+
         </>
     )
 }
