@@ -8,6 +8,7 @@ const DynamicMap = dynamic(() => import('../../components/Map/'), {ssr: false});
 export default function Map(){
     return(
       <>
+          <DesktopHeader/>
       <TopBar></TopBar>
       <main>
      <br></br>
