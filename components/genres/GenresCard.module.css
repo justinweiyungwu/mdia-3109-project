@@ -45,6 +45,9 @@ flex-grow: wrap;
   border-radius: 50%;
 width: 150px;
 }
+.artist{
+  align-items: center;
+}
 
 
 

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "musicTitle": "Maroon 5",
+        "songsImage": "/images/pictures/Kpop1.png",
+        "songsTitle":"Sweet Venom"
+        
+    },
+
+    {
+
+        "id": 2,
+        "musicTitle": "Snoh Aalegra",
+        "songsImage": "/images/pictures/Kpop2.png",
+        "songsTitle":"Back for More"
+    },
+    {
+        "id": 3,
+        "musicTitle": "Billie Eilish",
+        "songsImage": "/images/pictures/Kpop3.png",
+        "songsTitle":"ANTIFRAGILE"
+        
+    },
+    {
+        "id": 4,
+        "musicTitle": "Hotter Now",
+        "songsImage": "/images/pictures/Kpop4.png",
+        "songsTitle":"LALALALA"
+        
+    }
+]

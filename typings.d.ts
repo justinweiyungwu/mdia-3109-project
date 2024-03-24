@@ -1,7 +1,18 @@
 
 interface BillboardData{
-    entries: any[]; 
-  nextWeek: { date: string; url: string };
-  previousWeek: { date: string; url: string }; 
-  week: string;
+  chart: {
+    entries: {
+      title: string;
+      artist: string;
+    }[];
+    nextWeek: {
+      data: string;
+      url: string;
+    };
+    previousWeek: {
+      data: string;
+      url: string;
+    };
+    week: string;
+  }
 }
