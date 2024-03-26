@@ -4,7 +4,7 @@ import styles from "../articleCard/ArticleCard.module.css"
 export default function ArticleCard({
     title="",
     date = "",
-    link = "",
+    link = "https://pitchfork.com/news/justice-announce-album-share-video-for-new-song-with-tame-impala-watch/",
     image = "",
 }){
     return(
@@ -12,14 +12,14 @@ export default function ArticleCard({
             <main className={styles.body}>
                 <Image 
                     className={styles.articleImage}
-                    src={image}
+                    src={"/images/pictures/justice.webp"}
                     alt=""
                     width={280}
                     height={170}/>
 
                  <div className={styles.articleDetails}>
                     <div className={styles.articleTopSection}>
-                        <p className={styles.article}>Articles</p>
+                        <p className={styles.article}>Justice Team Up with Miguel for New Song “Saturnine”</p>
                         <p className={styles.articleDate}> {date}</p>
                     </div>
                     <h1 className={styles.articleTitle}>{title}</h1>

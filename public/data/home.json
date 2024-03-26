@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "musicTitle": "Olivia Rodrigo",
+        "songsImage": "/images/pictures/obsessed.webp",
+        "songsTitle":"Obsessed"
+        
+    },
+    {
+
+        "id": 2,
+        "musicTitle": "Metro Boomin",
+        "songsImage": "/images/pictures/likethat.webp",
+        "songsTitle":"Like That"
+    },
+    {
+        "id": 3,
+        "musicTitle": "Ihsahn",
+        "songsImage": "/images/pictures/Ihsahn.jpg",
+        "songsTitle":"Twice Born"
+        
+    },
+    {
+        "id": 4,
+        "musicTitle": "Elbow",
+        "songsImage": "/images/pictures/Balu.jpg",
+        "songsTitle":"Balu"
+        
+    }
+]

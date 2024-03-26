@@ -62,8 +62,20 @@ p {
 }
 
 button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: black;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: var(--font-semibold-weight);
+  border-radius: 20px;
+  padding: 0px 0px;
+  font-size: 16px; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  ;
+  
 }
 
 /****end of text*****/
