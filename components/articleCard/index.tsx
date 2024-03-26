@@ -14,7 +14,7 @@ export default function ArticleCard({
                     className={styles.articleImage}
                     src={"/images/pictures/justice.webp"}
                     alt=""
-                    width={280}
+                    width={1000}
                     height={170}/>
 
                  <div className={styles.articleDetails}>

@@ -22,7 +22,7 @@ export default function GenresCard() {
                      className={styles.top_song_container_img}   
                         src={songs.songsImage}
                         alt=""
-                        width={150}
+                        width={350}
                         height={150}/>
                     <h5 className={styles.subtitle}>{songs.songsTitle}</h5>
                     <h6 className={styles.artist}>{songs.musicTitle}</h6>
@@ -44,7 +44,7 @@ export default function GenresCard() {
                      className={styles.top_song_container_img}   
                         src={pop.songsImage}
                         alt=""
-                        width={150}
+                        width={350}
                         height={150}/>
                     <h5 className={styles.subtitle}>{pop.songsTitle}</h5>
                     <h6 className={styles.artist}>{pop.musicTitle}</h6>
@@ -66,7 +66,7 @@ export default function GenresCard() {
                      className={styles.top_song_container_img}   
                         src={kpop.songsImage}
                         alt=""
-                        width={150}
+                        width={350}
                         height={150}/>
                     <h5 className={styles.subtitle}>{kpop.songsTitle}</h5>
                     <h6 className={styles.artist}>{kpop.musicTitle}</h6>

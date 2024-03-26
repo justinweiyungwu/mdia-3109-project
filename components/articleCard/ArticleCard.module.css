@@ -1,5 +1,5 @@
 .body{
-    width: 280px;
+    width: 100%;
 }
 
 .articleDetails{
@@ -50,3 +50,16 @@
     font-size: 18px;
     font-weight: var(--font-semibold-weight);
 }
+
+
+
+@media only screen and (min-width: 1200px) {
+
+  
+    .articleImage{
+        border-radius: 35px;
+        border-top: 1px;
+        margin-bottom: -3em;
+      }
+  } 
+

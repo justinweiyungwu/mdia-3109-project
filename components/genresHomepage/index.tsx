@@ -20,7 +20,7 @@ export default function GenresHomepageCard() {
                      className={styles.top_song_container_img}   
                         src={songs.songsImage}
                         alt=""
-                        width={150}
+                        width={350}
                         height={150}/>
                     <h5 className={styles.subtitle}>{songs.songsTitle}</h5>
                     <h6 className={styles.artist}>{songs.musicTitle}</h6>
