@@ -69,7 +69,7 @@ export default function EventCard(){
   return(
     <div className={styles.eventsBody}>
       <h1>Events</h1>
-
+<div className={styles.mainContainer}>
       <div className={styles.searchOptions}>
         <input className={styles.input1} placeholder="location"/>
         <input className={styles.input1} placeholder="artist name"/>
@@ -80,7 +80,7 @@ export default function EventCard(){
 
       <hr />
 
-      <div>
+      <div className={styles.events}>
         {events.map(events => (
           <div className={styles.eventsSection} key={events.id}>
             <div>
@@ -93,8 +93,11 @@ export default function EventCard(){
                   width={360}
                   height={265}/>
               </div>
+   
               <div className={styles.eventsSectionTexts}>
+
                 <p className={styles.eventsTitle}>{events.title}</p>
+      
                 <p className={styles.eventsLocation}>{events.location}</p>
                 {/* <p className={styles.eventsLocation}>{events.address}</p> */}
                 <p className={styles.eventContents}>{events.contents}</p>
@@ -105,6 +108,7 @@ export default function EventCard(){
              <hr/>
           </div>
         ))}
+      </div>
       </div>
     </div>
   )

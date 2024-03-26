@@ -73,6 +73,13 @@
     font-weight: var(--font-semibold-weight);
 } */
 
+.mainContainer {
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
 .eventsBody{
     padding-top: 50px;
 }
@@ -81,6 +88,7 @@
     flex-direction: row;
     gap: 20px;
     margin-left: 25px;
+    flex-wrap: wrap;
 }
 
 .input1{
@@ -114,19 +122,19 @@
 }
 
 .eventsSection{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+ padding-top: 1em;
 }
 
 .eventsSectionTexts{
-    width: 380px;
+    width: 100%;
 }
 
 .eventsTitle{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 32px;
-    margin-left: -20px;
+
 }
 
 .eventsLocation{
@@ -134,14 +142,14 @@
     font-weight: 300;
     font-size: 18px;
     color: #9E9C9C;
-    margin-top: -40px;
+
 }
 
 .eventContents{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -20px;
+   
 }
 
 .eventsSectionButton{
@@ -152,3 +160,37 @@
     margin-top: 20px;
     margin-left: 10px;
 }
+
+
+
+@media only screen and (min-width: 1200px) {
+ 
+.eventsSection{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+    
+  }
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  
+
+   
+.eventsSection{
+    display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+}
+    
+  } 
+  
+  @media only screen and (min-width: 350px) and (max-width: 1000px){
+    
+    .events{
+        display: grid;
+    }
+  } 
+  
+  
+  
