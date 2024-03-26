@@ -1,24 +1,50 @@
 [
     {
         "id": 1,
-        "date": "January 22",
-        "title": "Grammys 2024 Ballot: See the Results",
+        "date": "March 29",
+        "title": "A Candle Light Experience",
+        "image": "/images/events/events1.svg",
+        "location": "St James Community Square",
+        "address": "3214 West 10th Avenue Vancouver, BC V6K 2L2",
+        "contents": "'Far Away Melodies'; is a Candle Light Concert experience in the majestic ambiance of a Church, aiming to blend in the borders of Eastern and Western musical traditions with genuine desire for elegance in harmony and innovative in design."
 
     },
 
     {
         "id": 2,
-        "date": "January 22",
-        "title": "Grammys 2024 Ballot: See the Results",
+        "date": "April 13",
+        "title": "Kaveh Yaghmaei",
+        "image": "/images/events/events2.svg",
+        "location": "The Centre For Performing Arts",
+        "address": "777 Homer Street Vancouver, BC V6B 0H3",
+        "contents": "Check out the past concert and event calendar for BabyTron in Vancouver along with detailed ticket and venue information including photos, videos, bios, and more."
     },
     {
         "id": 3,
-        "date": "January 22",
-        "title": "Grammys 2024 Ballot: See the Results",
+        "date": "March 27",
+        "title": "D12 & Obie Trice",
+        "image": "/images/events/events3.svg",
+        "location": "Hollyood Theatres",
+        "address": "3123 W Broadway Vancouver, BC V6K 2H2",
+        "contents": "D12 was an American hip hop collective from Detroit, Michigan. Formed in 1996, the group achieved mainstream success with its lineup of de facto leader Eminem, Proof, Bizarre, Mr. Porter, Kuniva and Swifty McVay. D12 had chart-topping albums in the United States, United Kingdom, and Australia during the early 2000s."
     },
     {
         "id": 4,
-        "date": "January 22",
-        "title": "Grammys 2024 Ballot: See the Results",
+        "date": "April 6",
+        "title": "LOS HERMANOS FLORES",
+        "image": "/images/events/events4.svg",
+        "location": "Aria Banquet & Convention Centre",
+        "address": "12350 Pattullo Place Surrey, BC V3V 8C3",
+        "contents": "Hailing from El Salvador, the Hermanos Flores are known for their exceptional talent and ability to blend a wide variety of musical styles, from cumbia and salsa to merengue and bachata. With their infectious energy and distinctive sound, they promise an unforgettable experience for all lovers of Latin music."
+    },
+    {
+        "id": 5,
+        "date": "March 30",
+        "title": "One Direction Dance Party",
+        "image": "/images/events/events5.svg",
+        "location": "Gorg-O-Mish Nightclub",
+        "address": "695 Smithe Street Vancouver, BC V6B 2C9",
+        "contents": "Get ready to groove all night long at our One Direction dance party! Pop Dance Party is back with the Biggest One-Direction Party in Vancouver! We'll be playing all your favorites to keep you dancing from start to finish. So grab your friends and come dressed in your best 1D or Harry-inspired outfit for a night of music, dancing, and memories.",
+        "link": "https://www.eventbrite.ca/e/one-direction-dance-party-march-30-tickets-850448393037?aff=ebdshpsearchautocomplete"
     }
 ]
