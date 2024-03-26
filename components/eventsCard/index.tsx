@@ -104,8 +104,9 @@ export default function EventCard(){
                 <Link href="">
                   <button className={styles.eventsSectionButton}>Learn More</button>
                 </Link>
+         
               </div>
-             <hr/>
+
           </div>
         ))}
       </div>

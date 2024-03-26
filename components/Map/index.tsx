@@ -11,9 +11,7 @@ const center: [number, number] =  [49.05255, -123.04150];
 export default function Map () {
     return (
         <main>
-        <div>
-            
-        </div>
+      
 
         
         <MapContainer
